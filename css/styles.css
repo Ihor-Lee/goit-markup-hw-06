@@ -1,4 +1,4 @@
-/* 
+./* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; 
 */
@@ -187,13 +187,22 @@ ul{
 	margin: 0 auto;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)),
-		url(../images/hero-image.jpg);
+		url(../images/webstudio/hero-image.jpg);
 	padding: 188px 0;
 	max-width: 1440px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
+@media screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx), 
+screen and (min-device-pixel-ratio: 2) 
+{
+	.intro {
+		background-image: url(../images/webstudio/hero-image@x2.jpg);
+	}
+}
+	
 .intro-title{
 	color: var(--white);
 	text-align: center;
@@ -937,21 +946,7 @@ ul{
 }
 
 
-
-
-/**
-	|============================
-	| MEDIA
-	|============================
-*/
-
-
-@media (min-width:428){
-	
-}
-
-
-
+/* mobile */
 
 
 
