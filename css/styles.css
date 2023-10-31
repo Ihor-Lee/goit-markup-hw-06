@@ -639,6 +639,9 @@ address {
 }
 
 @media screen and (min-width: 1158px) {
+  .categories{
+    padding-bottom: 120px;
+  }
   .gallery-img-p {
     display: block;
     color: #f4f4fd;
