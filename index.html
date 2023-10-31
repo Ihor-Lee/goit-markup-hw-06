@@ -78,9 +78,7 @@
       <section class="advantages section">
         <div class="advantages-content container">
           <h2 class="visually-hidden">Features</h2>
-          <h2 class="advantages-title visually-hidden">Advantages</h2>
-
-          <ul class="advantages-list list">
+              <ul class="advantages-list list">
             <li class="advantages-item">
               <div class="advantages-item-content">
                 <svg class="advantages-icon" width="64" height="64">
@@ -141,7 +139,7 @@
       </section>
       
       <!-- team -->
-      <section class="team section">
+      <section class="team section" id="team">
         <div class="team-content container">
           <h2 class="team-title">Our Team</h2>
 
@@ -327,7 +325,7 @@
       <!-- Portfolio -->
       <section class="categories">
         <div class="categories-content container">
-          <h1 class="categories-title visually-hidden">Categories</h1>
+          <h1 class="categories-title">Our Portfolio</h1>
       <ul class="gallery-list list">
             <li class="gallery-item">
               <a class="gallery-link link" href="">
@@ -554,6 +552,7 @@
           <form class="subscribe-form">
             <label class="subscribe-label" title="subscribe">
               <input
+                id="subscribe-input"
                 class="subscribe-input"
                 type="email"
                 name="email"
@@ -573,7 +572,7 @@
     </footer>
 
     <div data-modal class="modal is-hidden">
-      <div class="modal-vindow">
+      <div class="modal-window">
         <button class="modal-close" data-modal-close type="button">
           <svg class="modal-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
@@ -657,8 +656,10 @@
                   <use href="./images/icons.svg#icon-true"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="check-policy" href="">Privacy Policy</a>
+              <div class="checkbox-label-text">
+                I accept the terms and conditions of the
+                <a class="policy-link" href="">Privacy Policy</a>
+              </div>
             </label>
           </div>
 
