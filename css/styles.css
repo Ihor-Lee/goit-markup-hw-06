@@ -1213,3 +1213,8 @@ address {
 .mob-men-social-icon {
   fill: #f4f4fd;
 }
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
